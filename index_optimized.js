@@ -53,9 +53,6 @@ io.on("connection", (socket) => {
 
   socket.on("joinRoom", (room) => {
     
-    
-    console.log(allRooms)
-
     if (allRooms.includes(room)){
       
       
